@@ -145,7 +145,7 @@ email <- envelope() %>%
 
 smtp <- server(host = "smtp.gmail.com",
                port = 587,
-               username = "ud*****94@gmail.com",
+               username = "udmehra94@gmail.com",
                password = "************") #Create R password from google - Settings - Accounts and Imports tab - 
                                           # Other Google Account settings - Click on Security option - Then App Password - 
                                           #Create R App password and use it here to get access of sending emails from R.
@@ -174,5 +174,5 @@ smtp(email, verbose = TRUE)
 # smtp <- server(host = "smtp.gmail.com",
 #                port = 587,
 #                username = "udmehra94@gmail.com",
-#                password = "ngrmwqilzjslxhay")
+#                password = "************")
 # smtp(email, verbose = TRUE)
